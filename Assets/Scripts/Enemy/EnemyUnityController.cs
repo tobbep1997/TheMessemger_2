@@ -132,12 +132,12 @@ public class EnemyUnityController : MonoBehaviour {
     //----------------------------- Movment
     void SelectPosition()
     {
+        if (Path.Length <= 0 || Path == null)        
+            return;        
         if (CurrentTargetPosition == null)
             CurrentTargetPosition = Path[0];
-        if (CurrentTargetPosition == null)
-        {
-            return;
-        }
+    
+
         if (ReachedDestination())
         {
             CurrentEnemyState = EnemyState.checkCurrentArea;
