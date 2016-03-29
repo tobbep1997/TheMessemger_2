@@ -57,9 +57,14 @@ public class CameraMovment_3 : MonoBehaviour
     [Range(0,20)]
     private float Mult;
     //-------------------------------------------------------------
-    public enum Angels { Horizontal, Vertical, Both }    
+    public enum Angels { Horizontal, Vertical, Both }
 
     //-------------------------------------------------------------
+    void Awake()
+    {
+        yRotation = transform.rotation.eulerAngles.y;
+        currentYRotation = yRotation;
+    }
     void Start()
     {
         characterRigid = CharacterTransform.gameObject.GetComponent<Rigidbody>();
