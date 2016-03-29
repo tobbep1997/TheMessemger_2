@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 9b44a70ba0a23ce4aae035197d260d12
-timeCreated: 1459256465
+guid: 8ebe7afc0faa9c140ad83b7c1c361dca
+timeCreated: 1459259185
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -36,61 +36,96 @@ ModelImporter:
     100056: polySurface15
     100058: polySurface16
     100060: polySurface17
-    100062: polySurface2
-    100064: polySurface2 1
-    100066: polySurface3
-    100068: polySurface4
-    100070: polySurface5
-    100072: polySurface6
-    100074: polySurface7
-    100076: polySurface8
-    100078: polySurface9
-    100080: pSphere1
-    100082: pSphere2
-    100084: pSphere3
-    100086: pSphere4
-    100088: pSphere5
-    100090: transform1
-    100092: transform10
-    100094: transform11
-    100096: transform12
-    100098: transform13
-    100100: transform14
-    100102: transform15
-    100104: transform16
-    100106: transform17
-    100108: transform18
-    100110: transform19
-    100112: transform2
-    100114: transform20
-    100116: transform21
-    100118: transform22
-    100120: transform23
-    100122: transform24
-    100124: transform25
-    100126: transform26
-    100128: transform27
-    100130: transform28
-    100132: transform29
-    100134: transform3
-    100136: transform30
-    100138: transform31
-    100140: transform32
-    100142: transform33
-    100144: transform34
-    100146: transform35
-    100148: transform36
-    100150: transform37
-    100152: transform38
-    100154: transform39
-    100156: transform4
-    100158: transform40
-    100160: transform41
-    100162: transform5
-    100164: transform6
-    100166: transform7
-    100168: transform8
-    100170: transform9
+    100062: polySurface18
+    100064: polySurface19
+    100066: polySurface2
+    100068: polySurface2 1
+    100070: polySurface20
+    100072: polySurface21
+    100074: polySurface22
+    100076: polySurface23
+    100078: polySurface24
+    100080: polySurface25
+    100082: polySurface26
+    100084: polySurface27
+    100086: polySurface28
+    100088: polySurface29
+    100090: polySurface3
+    100092: polySurface30
+    100094: polySurface31
+    100096: polySurface32
+    100098: polySurface33
+    100100: polySurface34
+    100102: polySurface35
+    100104: polySurface4
+    100106: polySurface5
+    100108: polySurface6
+    100110: polySurface7
+    100112: polySurface8
+    100114: polySurface9
+    100116: pSphere1
+    100118: pSphere2
+    100120: pSphere3
+    100122: pSphere4
+    100124: pSphere5
+    100126: transform1
+    100128: transform10
+    100130: transform11
+    100132: transform12
+    100134: transform13
+    100136: transform14
+    100138: transform15
+    100140: transform16
+    100142: transform17
+    100144: transform18
+    100146: transform19
+    100148: transform2
+    100150: transform20
+    100152: transform21
+    100154: transform22
+    100156: transform23
+    100158: transform24
+    100160: transform25
+    100162: transform26
+    100164: transform27
+    100166: transform28
+    100168: transform29
+    100170: transform3
+    100172: transform30
+    100174: transform31
+    100176: transform32
+    100178: transform33
+    100180: transform34
+    100182: transform35
+    100184: transform36
+    100186: transform37
+    100188: transform38
+    100190: transform39
+    100192: transform4
+    100194: transform40
+    100196: transform41
+    100198: transform42
+    100200: transform43
+    100202: transform44
+    100204: transform45
+    100206: transform46
+    100208: transform47
+    100210: transform48
+    100212: transform49
+    100214: transform5
+    100216: transform50
+    100218: transform51
+    100220: transform52
+    100222: transform53
+    100224: transform54
+    100226: transform55
+    100228: transform56
+    100230: transform57
+    100232: transform58
+    100234: transform6
+    100236: transform7
+    100238: transform8
+    100240: transform9
     400000: bottom
     400002: //RootNode
     400004: left
@@ -122,64 +157,102 @@ ModelImporter:
     400056: polySurface15
     400058: polySurface16
     400060: polySurface17
-    400062: polySurface2
-    400064: polySurface2 1
-    400066: polySurface3
-    400068: polySurface4
-    400070: polySurface5
-    400072: polySurface6
-    400074: polySurface7
-    400076: polySurface8
-    400078: polySurface9
-    400080: pSphere1
-    400082: pSphere2
-    400084: pSphere3
-    400086: pSphere4
-    400088: pSphere5
-    400090: transform1
-    400092: transform10
-    400094: transform11
-    400096: transform12
-    400098: transform13
-    400100: transform14
-    400102: transform15
-    400104: transform16
-    400106: transform17
-    400108: transform18
-    400110: transform19
-    400112: transform2
-    400114: transform20
-    400116: transform21
-    400118: transform22
-    400120: transform23
-    400122: transform24
-    400124: transform25
-    400126: transform26
-    400128: transform27
-    400130: transform28
-    400132: transform29
-    400134: transform3
-    400136: transform30
-    400138: transform31
-    400140: transform32
-    400142: transform33
-    400144: transform34
-    400146: transform35
-    400148: transform36
-    400150: transform37
-    400152: transform38
-    400154: transform39
-    400156: transform4
-    400158: transform40
-    400160: transform41
-    400162: transform5
-    400164: transform6
-    400166: transform7
-    400168: transform8
-    400170: transform9
-    2300000: pSphere5
-    3300000: pSphere5
-    4300000: pSphere5
+    400062: polySurface18
+    400064: polySurface19
+    400066: polySurface2
+    400068: polySurface2 1
+    400070: polySurface20
+    400072: polySurface21
+    400074: polySurface22
+    400076: polySurface23
+    400078: polySurface24
+    400080: polySurface25
+    400082: polySurface26
+    400084: polySurface27
+    400086: polySurface28
+    400088: polySurface29
+    400090: polySurface3
+    400092: polySurface30
+    400094: polySurface31
+    400096: polySurface32
+    400098: polySurface33
+    400100: polySurface34
+    400102: polySurface35
+    400104: polySurface4
+    400106: polySurface5
+    400108: polySurface6
+    400110: polySurface7
+    400112: polySurface8
+    400114: polySurface9
+    400116: pSphere1
+    400118: pSphere2
+    400120: pSphere3
+    400122: pSphere4
+    400124: pSphere5
+    400126: transform1
+    400128: transform10
+    400130: transform11
+    400132: transform12
+    400134: transform13
+    400136: transform14
+    400138: transform15
+    400140: transform16
+    400142: transform17
+    400144: transform18
+    400146: transform19
+    400148: transform2
+    400150: transform20
+    400152: transform21
+    400154: transform22
+    400156: transform23
+    400158: transform24
+    400160: transform25
+    400162: transform26
+    400164: transform27
+    400166: transform28
+    400168: transform29
+    400170: transform3
+    400172: transform30
+    400174: transform31
+    400176: transform32
+    400178: transform33
+    400180: transform34
+    400182: transform35
+    400184: transform36
+    400186: transform37
+    400188: transform38
+    400190: transform39
+    400192: transform4
+    400194: transform40
+    400196: transform41
+    400198: transform42
+    400200: transform43
+    400202: transform44
+    400204: transform45
+    400206: transform46
+    400208: transform47
+    400210: transform48
+    400212: transform49
+    400214: transform5
+    400216: transform50
+    400218: transform51
+    400220: transform52
+    400222: transform53
+    400224: transform54
+    400226: transform55
+    400228: transform56
+    400230: transform57
+    400232: transform58
+    400234: transform6
+    400236: transform7
+    400238: transform8
+    400240: transform9
+    2300000: polySurface34
+    2300002: polySurface35
+    3300000: polySurface34
+    3300002: polySurface35
+    4300000: polySurface34
+    4300002: polySurface35
     7400000: Take 001
     9500000: //RootNode
   materials:
@@ -206,8 +279,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Take 001
       takeName: Take 001
-      firstFrame: 1
-      lastFrame: 60
+      firstFrame: 5
+      lastFrame: 75
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -382,6 +455,8 @@ ModelImporter:
         weight: 1
       - path: polySurface2/transform37
         weight: 1
+      - path: polySurface35
+        weight: 1
       - path: pSphere1
         weight: 1
       - path: pSphere1/transform41
@@ -399,6 +474,74 @@ ModelImporter:
       - path: pSphere4/transform39
         weight: 1
       - path: pSphere5
+        weight: 1
+      - path: pSphere5/polySurface18
+        weight: 1
+      - path: pSphere5/polySurface18/transform50
+        weight: 1
+      - path: pSphere5/polySurface19
+        weight: 1
+      - path: pSphere5/polySurface19/transform49
+        weight: 1
+      - path: pSphere5/polySurface20
+        weight: 1
+      - path: pSphere5/polySurface20/transform48
+        weight: 1
+      - path: pSphere5/polySurface21
+        weight: 1
+      - path: pSphere5/polySurface21/transform47
+        weight: 1
+      - path: pSphere5/polySurface22
+        weight: 1
+      - path: pSphere5/polySurface22/transform46
+        weight: 1
+      - path: pSphere5/polySurface23
+        weight: 1
+      - path: pSphere5/polySurface23/transform45
+        weight: 1
+      - path: pSphere5/polySurface24
+        weight: 1
+      - path: pSphere5/polySurface24/transform44
+        weight: 1
+      - path: pSphere5/polySurface25
+        weight: 1
+      - path: pSphere5/polySurface25/transform43
+        weight: 1
+      - path: pSphere5/polySurface26
+        weight: 1
+      - path: pSphere5/polySurface26/transform58
+        weight: 1
+      - path: pSphere5/polySurface27
+        weight: 1
+      - path: pSphere5/polySurface27/transform57
+        weight: 1
+      - path: pSphere5/polySurface28
+        weight: 1
+      - path: pSphere5/polySurface28/transform56
+        weight: 1
+      - path: pSphere5/polySurface29
+        weight: 1
+      - path: pSphere5/polySurface29/transform55
+        weight: 1
+      - path: pSphere5/polySurface30
+        weight: 1
+      - path: pSphere5/polySurface30/transform54
+        weight: 1
+      - path: pSphere5/polySurface31
+        weight: 1
+      - path: pSphere5/polySurface31/transform53
+        weight: 1
+      - path: pSphere5/polySurface32
+        weight: 1
+      - path: pSphere5/polySurface32/transform52
+        weight: 1
+      - path: pSphere5/polySurface33
+        weight: 1
+      - path: pSphere5/polySurface33/transform51
+        weight: 1
+      - path: pSphere5/polySurface34
+        weight: 1
+      - path: pSphere5/transform42
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
