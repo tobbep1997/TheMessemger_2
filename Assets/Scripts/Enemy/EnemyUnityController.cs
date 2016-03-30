@@ -4,7 +4,12 @@ using System.Collections;
 [RequireComponent(typeof (NavMeshAgent))]
 public class EnemyUnityController : MonoBehaviour {
 
+    [SerializeField]
     MasterEnemyController masterController;
+
+    [SerializeField]
+    bool UseAnimation = true;
+
 
     //Path and destination
     [Header("Movment and destination")]
@@ -94,8 +99,9 @@ public class EnemyUnityController : MonoBehaviour {
     {
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
-        LightPosition.gameObject.SetActive(UseFlaslight);
         masterController = GameObject.FindGameObjectWithTag("GameController").GetComponent<MasterEnemyController>();
+        if (LightPosition != null)
+            LightPosition.gameObject.SetActive(UseFlaslight);     
     }
     void Update()
     {
@@ -313,7 +319,7 @@ public class EnemyUnityController : MonoBehaviour {
             lastSeenPosition = Target.position;
             CurrentEnemyState = EnemyState.attacking;
         }
-        if (Vector3.Distance(Target.position,transform.position) >= visionDetectionRange || CheckDirectVision(TargetCollider))
+        if (Vector3.Distance(Target.position,transform.position) >= visionDetectionRange || !CheckDirectVision(TargetCollider))
         {
             lastSeenPosition = Target.position;
             CurrentEnemyState = EnemyState.checkLastSeenArea;
@@ -373,6 +379,8 @@ public class EnemyUnityController : MonoBehaviour {
     //----------------------------- Animations
     void SetAnimations(bool moving, Vector3? rotateHead)
     {
+        if (!UseAnimation)
+            return;
         if (moving)
         {
             anim.SetFloat("Forward", agent.speed / AnimSpeedDevider);
@@ -384,6 +392,8 @@ public class EnemyUnityController : MonoBehaviour {
     }
     void SetAnimations(bool moving)
     {
+        if (!UseAnimation)
+            return;
         if (moving)
         {
             anim.SetFloat("Forward", agent.speed / AnimSpeedDevider);
