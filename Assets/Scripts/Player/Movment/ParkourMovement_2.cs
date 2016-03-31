@@ -55,6 +55,13 @@ public class ParkourMovement_2 : MonoBehaviour
     private float slideTimer = 0, slideCDTimer, afterSlideTimer;
     private bool bSliding = false, bCanSlide = true, addedForce = false, bAfterSlide = false;
 
+    private bool _LockParcore = false;
+    public bool LockParcore
+    {
+        get { return _LockParcore; }
+        set { _LockParcore = value; }
+    }
+
 
 
     private void Awake()
@@ -72,6 +79,8 @@ public class ParkourMovement_2 : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (_LockParcore)
+            return;
         CallFunctions();
     }
 

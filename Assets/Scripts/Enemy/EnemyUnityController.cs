@@ -111,6 +111,10 @@ public class EnemyUnityController : MonoBehaviour {
             return;
         }
         ManageDetectionColliders();
+        if (CurrentEnemyState != EnemyState.attacking)
+        {
+            gunTimer = 0;
+        }
         switch (CurrentEnemyState)
         {
             case EnemyState.walking:
@@ -216,6 +220,7 @@ public class EnemyUnityController : MonoBehaviour {
         lookAtLookPos = false;
         RotationTimer = 0;
         rotationWaitTimer = 0;
+        SetLookPos(true);
     }
     //----------------------------- Detection
     public void SetPlayerObject(Collider PlayerCollider)
@@ -362,7 +367,7 @@ public class EnemyUnityController : MonoBehaviour {
             if (gunTimer >= timeBeforeShot)
             {
                 gunTimer = 0;
-                FireBullet(Target);
+                FireBullet();
             }            
         }
         else
@@ -372,9 +377,9 @@ public class EnemyUnityController : MonoBehaviour {
             CurrentEnemyState = EnemyState.chasing;
         }
     }
-    void FireBullet(Transform target)
+    void FireBullet()
     {
-        GameObject newBullet;
+        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
     }
     //----------------------------- Animations
     void SetAnimations(bool moving, Vector3? rotateHead)
