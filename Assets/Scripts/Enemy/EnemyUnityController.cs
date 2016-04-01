@@ -379,7 +379,8 @@ public class EnemyUnityController : MonoBehaviour {
     }
     void FireBullet()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
+        RestartGame.Restart();
+        //UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex);
     }
     //----------------------------- Animations
     void SetAnimations(bool moving, Vector3? rotateHead)
