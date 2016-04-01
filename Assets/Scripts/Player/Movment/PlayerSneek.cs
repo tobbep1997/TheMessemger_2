@@ -31,6 +31,11 @@ public class PlayerSneek : MonoBehaviour
     {
         sneaking = Input.GetKey(SneakKey);
 
+        if (parkourMovment.IsSliding)
+        {
+            return;
+        }
+
         if (sneaking)
         {
             parkourMovment.LockParcore = true;

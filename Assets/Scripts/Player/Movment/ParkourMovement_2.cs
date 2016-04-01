@@ -54,6 +54,10 @@ public class ParkourMovement_2 : MonoBehaviour
     private float slideTime = .2f, slideCD = .1f, slideForce, afterSlideCD = .2f;
     private float slideTimer = 0, slideCDTimer, afterSlideTimer;
     private bool bSliding = false, bCanSlide = true, addedForce = false, bAfterSlide = false;
+    public bool IsSliding
+    {
+        get { return bSliding; }
+    }
 
     private bool _LockParcore = false;
     public bool LockParcore
